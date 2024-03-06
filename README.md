@@ -14,4 +14,4 @@ Font:  Nova Square, Rajdhani
 
 ## Screenshoot
 
-<img class="img-fluid" src="/">
+<img class="img-fluid" src="/screencapture-red-mountains.png">
