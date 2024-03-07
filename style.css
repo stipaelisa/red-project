@@ -1,7 +1,8 @@
 :root {
     --mainred: darkred;
     --softred: #C67F7F;
-    --white: #ececec;
+    --grey: #ececec;
+    --darkgrey:  #70747a;
 }
 
 * {
@@ -10,13 +11,98 @@
     }
 }
 
+/* FONTS */
 
 .main-title{
     font-family: "Nova Square", sans-serif;
+    width: 100%;
 }
 
+/* LOGO */
 
 .logo-size{
     width: 150px;
     height: auto;
 }
+
+/* HEADER */
+
+header {
+    background: linear-gradient(rgb(248,249,250), rgba(131, 29, 29, 0)), url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ h1 {
+    letter-spacing: 50px;
+    color: var(--mainred);
+}
+
+.my-img{
+    left: -10px;    
+}
+
+
+/* MAIN SECTION */
+main {
+    background-color: #ececec;
+}
+
+/* PARAGRAPH */
+.central-p {
+    font-size: 23px;
+    font-style: italic;
+    font-weight:600;
+    text-align: center;
+    color:var(--darkgrey);
+}
+
+.central-p:before {
+    content: '“';
+    font-weight: bolder;
+    font-size: 60px;
+    color: darkred;    
+    position:absolute;
+    font-style: italic;
+    margin: -30px;
+}
+
+.central-p:after {
+    content: '”';
+    font-weight: bolder;
+    font-size: 60px;
+    color: darkred;    
+    position:absolute;
+    font-style: italic;
+   
+}
+
+/*  SLIDERS*/
+
+.my-icon {
+    color: var(--mainred);
+}
+.sliders {
+    padding-top: 130px;
+    font-weight: 600;
+
+}
+.slider-line {
+    border-bottom: 3px solid darkred;
+    
+}
+.slider:before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border: 3px solid darkred;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 80px;
+    background-color: white;
+    
+}
+
+/* SIDE PARAGRAPHS */
+
