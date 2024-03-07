@@ -1,0 +1,22 @@
+:root {
+    --mainred: darkred;
+    --softred: #C67F7F;
+    --white: #ececec;
+}
+
+* {
+    body {
+        font-family: "Rajdhani", sans-serif;
+    }
+}
+
+
+.main-title{
+    font-family: "Nova Square", sans-serif;
+}
+
+
+.logo-size{
+    width: 150px;
+    height: auto;
+}
